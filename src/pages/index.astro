@@ -1,49 +1,179 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+title: "Async Agents Framework - TypeScript AI Agents for Concurrent Apps"
+description: "Async Agents is a lightweight TypeScript framework for building concurrent AI applications with stateless agents, multi-core performance, and strong flow control."
+keywords: "Async Agents, TypeScript, AI agents, concurrent applications, workflow automation, multi-core AI, agent framework"
 ---
 
-<!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Async Agents Framework - TypeScript AI Agents for Concurrent Apps</title>
+    <meta name="description" content="Async Agents is a lightweight TypeScript framework for building concurrent AI applications with stateless agents, multi-core performance, and strong flow control." />
+    <meta name="keywords" content="Async Agents, TypeScript, AI agents, concurrent applications, workflow automation, multi-core AI, agent framework" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://yourdomain.com/" />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Async Agents Framework" />
+    <meta property="og:description" content="Lightweight TypeScript AI agents framework for concurrent applications with strong flow control." />
+    <meta property="og:image" content="https://yourdomain.com/async-agents.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourdomain.com/" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Async Agents Framework" />
+    <meta name="twitter:description" content="Lightweight TypeScript AI agents framework for concurrent applications with strong flow control." />
+    <meta name="twitter:image" content="https://yourdomain.com/async-agents.png" />
+
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.3/dist/tailwind.min.css" />
+
+    <!-- JSON-LD Structured Data for SoftwareApplication + FAQ -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "SoftwareApplication",
+            "name": "Async Agents Framework",
+            "url": "https://yourdomain.com/",
+            "description": "A lightweight TypeScript AI agents framework for building concurrent applications with strong flow control.",
+            "applicationCategory": "DeveloperTool",
+            "operatingSystem": "Cross-platform",
+            "programmingLanguage": "TypeScript",
+            "author": {
+              "@type": "Person",
+              "name": "Kuangren Chu"
+            },
+            "image": "https://yourdomain.com/async-agents.png",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is Async Agents Framework?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Async Agents Framework is a lightweight TypeScript AI agents framework for building concurrent applications with stateless agents, multi-core performance, and strong flow control."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I install Async Agents?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "You can install it via npm with 'npm i async-agents-core' or via yarn with 'yarn add async-agents-core'."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which platforms does it support?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Async Agents is cross-platform and works on any environment that supports Node.js and TypeScript."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where can I find examples and documentation?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "You can find all-in-one core code, example code, and prompt examples in the GitHub repository: [project-ai.md](https://github.com/ggzy12345/async-agents/)."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+
+  <body class="bg-gray-50 text-gray-800 font-sans">
+    <main class="max-w-4xl mx-auto space-y-8 p-6">
+      <header>
+        <h1 class="text-4xl font-bold">Async Agents Framework</h1>
+        <p class="text-lg">A lightweight TypeScript AI agents framework for building concurrent applications with strong flow control.</p>
+      </header>
+
+      <section>
+        <h2 class="text-2xl font-semibold mt-6">Features</h2>
+        <ul class="list-disc list-inside mt-2 space-y-1">
+          <li><strong>Lock-less Architecture</strong>: Stateless agents operate without shared memory locks</li>
+          <li><strong>Multi-Core Performance</strong>: Utilizes worker threads for true parallelism</li>
+          <li><strong>Strong Flow Control</strong>: Managed conversation workflows with hooks</li>
+          <li><strong>Modular Design</strong>: Pluggable agents with tool integration support</li>
+          <li><strong>Async Processing</strong>: Non-blocking operations with promise-based APIs. Can be integrated with broadcast channel, Kafka, SQS, PubSub, etc.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mt-6">Agents Patterns</h2>
+        <ol class="list-decimal list-inside mt-2 space-y-1">
+          <li><strong>Round Robin</strong>: Simple task distribution</li>
+          <li><strong>Handoff</strong>: Agent-to-agent conversation transfer</li>
+          <li><strong>Tool Calling</strong>: Function execution with reflection</li>
+          <li><strong>Selector</strong>: Intelligent agent assignment</li>
+          <li><strong>Workflow</strong>: Managed multi-step processes</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mt-6">Design Overview</h2>
+        <p>This is an email-like messaging system. Key design elements explained below.</p>
+
+        <h3 class="text-xl font-semibold mt-4">Email-like Messaging</h3>
+        <ul class="list-disc list-inside mt-2 space-y-1">
+          <li>Each entity (Manager/Agents) has its own virtual mailbox (persistent storage)</li>
+          <li>Messages have explicit types: <strong>NEW</strong>, <strong>FORWARD</strong>, <strong>REPLY</strong></li>
+          <li>All communications are asynchronous and stored</li>
+        </ul>
+
+        <h3 class="text-xl font-semibold mt-4">Message Flow</h3>
+        <ul class="list-disc list-inside mt-2 space-y-1">
+          <li><strong>NEW</strong>: End User initiates conversation with Manager</li>
+          <li><strong>FORWARD</strong>: Manager routes messages to agents</li>
+          <li><strong>REPLY</strong>: Agents respond to Manager (not directly to End User)</li>
+          <li>Final <strong>REPLY</strong>: Manager responds to End User</li>
+        </ul>
+
+        <figure class="mt-4">
+          <img src="./async-agents.png" alt="Diagram showing Async Agents email-like messaging flow" class="rounded shadow-md" />
+          <figcaption class="text-sm text-gray-500 mt-1">Async Agents message flow visualization</figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mt-6">Get Started</h2>
+        <p class="mt-2">Install via NPM or Yarn:</p>
+        <pre class="bg-gray-100 p-3 rounded mt-1"><code>npm i async-agents-core
+# or
+yarn add async-agents-core</code></pre>
+
+        <p class="mt-2">Try this AI-native way to get started. Copy the files and paste it to ask AI:</p>
+        <ul class="list-disc list-inside mt-2 space-y-1">
+          <li><strong>Core code (all in one file)</strong>: <a href="https://github.com/ggzy12345/async-agents/blob/main/packages/shared/async-agents-core/project-ai.md" class="text-blue-600 underline">project-ai.md</a></li>
+          <li><strong>Example code (all in one file)</strong>: <a href="https://github.com/ggzy12345/async-agents/blob/main/packages/backend/async-agents-backend-example/project-ai.md" class="text-blue-600 underline">project-ai.md</a></li>
+          <li><strong>Example prompt</strong>: <a href="https://github.com/ggzy12345/async-agents/blob/main/packages/shared/async-agents-core/ai-prompt-examples.md" class="text-blue-600 underline">ai-prompt-examples.md</a></li>
+        </ul>
+
+        <h3 class="text-xl font-semibold mt-4">Example Video</h3>
+        <a href="https://www.youtube.com/watch?v=qejoEK3H4Bw" target="_blank" class="relative inline-block">
+          <img src="https://img.youtube.com/vi/qejoEK3H4Bw/0.jpg" alt="Watch Async Agents demo video on YouTube" class="rounded shadow-md" />
+          <span class="absolute inset-0 flex items-center justify-center">
+            <svg class="w-16 h-16 text-white opacity-90 drop-shadow-lg" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M3 22v-20l18 10-18 10z"/>
+            </svg>
+          </span>
+        </a>
+      </section>
+    </main>
+  </body>
 </html>
