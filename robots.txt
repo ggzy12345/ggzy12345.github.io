@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ggzy12345.github.io/sitemap.xml
+Sitemap: https://ggzy12345.github.io/sitemap-index.xml
