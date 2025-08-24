@@ -2,7 +2,8 @@
 publishDate: 2023-08-23T00:00:00Z
 author: ggzy12345
 title: Async Agents framework introduction
-excerpt: A lightweight typescript AI agents framework for building concurrent applications with strong flow control.
+excerpt: An AI framework built with TypeScript and fully compatible with
+        JavaScript and Node.js. It is ideal for building concurrent applications with strong flow control.
 category: Async Agents
 tags:
   - ai agents
