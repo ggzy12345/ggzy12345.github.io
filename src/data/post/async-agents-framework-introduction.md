@@ -8,7 +8,7 @@ tags:
   - ai agents
   - typescirpt
 metadata:
-  canonical: https://ggzy12345.github.io/async-agents-framework-introduction
+  canonical: https://ggzy12345.github.io/blog/async-agents-framework-introduction
 ---
 
 ## Features
