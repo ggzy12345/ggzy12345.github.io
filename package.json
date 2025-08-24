@@ -11,6 +11,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "sync": "rm -fr /home/peter/Codes/git/gitlab1/gh-pages-branch/ggzy12345.github.io/* && cp -fr ./dist/* /home/peter/Codes/git/gitlab1/gh-pages-branch/ggzy12345.github.io/ && touch /home/peter/Codes/git/gitlab1/gh-pages-branch/ggzy12345.github.io/.nojekyll",
     "astro": "astro",
     "check": "npm run check:astro && npm run check:eslint && npm run check:prettier",
     "check:astro": "astro check",

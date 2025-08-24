@@ -1,12 +1,12 @@
 ---
-import Layout from '~/layouts/PageLayout.astro';
+import Layout from "~/layouts/PageLayout.astro";
 
-import Hero from '~/components/widgets/Hero.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
+import Hero from "~/components/widgets/Hero.astro";
+import BlogLatestPosts from "~/components/widgets/BlogLatestPosts.astro";
+import FAQs from "~/components/widgets/FAQs.astro";
 
 const metadata = {
-  title: 'ggzy12345 - Async Agents',
+  title: "ggzy12345 - Async Agents",
   ignoreTitleTemplate: true,
 };
 ---
@@ -17,19 +17,21 @@ const metadata = {
   <Hero
     actions={[
       {
-        variant: 'primary',
-        text: 'Github Repo',
-        href: 'https://github.com/ggzy12345/async-agents',
-        target: '_blank',
-        icon: 'tabler:link',
+        variant: "primary",
+        text: "Github Repo",
+        href: "https://github.com/ggzy12345/async-agents",
+        target: "_blank",
+        icon: "tabler:link",
       },
-      { text: 'Learn more', href: '/category/async-agents' },
+      { text: "Learn more", href: "/category/async-agents" },
     ]}
   >
-    <Fragment slot="title"> Async Agents </Fragment>
+    <Fragment slot="title"> Async Agents AI Framework </Fragment>
 
     <Fragment slot="subtitle">
-      <span class="hidden sm:inline">A free, customizable and production-ready AI agents framework</span>
+      <span class="hidden sm:inline"
+        >A free, customizable and production-ready AI agents framework</span
+      >
       Suitable for Personal Developers, Startups, SaaS Companies
     </Fragment>
   </Hero>
@@ -42,25 +44,26 @@ const metadata = {
     title="Frequently Asked Questions"
     subtitle="Dive into the following questions to gain insights into the powerful features that Async Agents framework offers and how it can elevate your AI Agents journey."
     tagline="FAQs"
-    classes={{ container: 'max-w-6xl' }}
+    classes={{ container: "max-w-6xl" }}
     items={[
       {
-        title: 'What is Async Agents Framework?',
+        title: "What is Async Agents Framework?",
         description:
-          'Async Agents Framework is a lightweight TypeScript AI agents framework for building concurrent applications with stateless agents, multi-core performance, and strong flow control.',
+          "Async Agents Framework is a lightweight TypeScript AI agents framework for building concurrent applications with stateless agents, multi-core performance, and strong flow control.",
       },
       {
-        title: 'How do I install Async Agents?',
+        title: "How do I install Async Agents?",
         description: `You can install it via npm with 'npm i async-agents-core' or via yarn with 'yarn add async-agents-core'.`,
       },
       {
-        title: 'Which platforms does it support?',
+        title: "Which platforms does it support?",
         description:
-          'Async Agents is cross-platform and works on any environment that supports Node.js and TypeScript.',
+          "Async Agents is cross-platform and works on any environment that supports Node.js and TypeScript.",
       },
       {
-        title: 'Where can I find examples and documentation?',
-        description: 'You can find all-in-one core code, example code, and prompt examples in the GitHub repository.',
+        title: "Where can I find examples and documentation?",
+        description:
+          "You can find all-in-one core code, example code, and prompt examples in the GitHub repository.",
       },
     ]}
   />

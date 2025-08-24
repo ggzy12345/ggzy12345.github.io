@@ -7,7 +7,7 @@ category: AI Models
 tags:
   - ai models
 metadata:
-  canonical: https://ggzy12345.github.io/local-llms-for-async-agents-framework-development
+  canonical: https://ggzy12345.github.io/blog/local-llms-for-async-agents-framework-development
 ---
 
 # Local LLMs for Agent Development
