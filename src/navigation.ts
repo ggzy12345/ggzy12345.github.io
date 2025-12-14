@@ -14,10 +14,10 @@ export const headerData = {
     //     text: 'Home Labs',
     //     href: getPermalink('home-labs', 'category'),
     //   },
-    //   {
-    //     text: 'Softwre Development',
-    //     href: getPermalink('software-development', 'category'),
-    //   },
+    {
+      text: 'Software Development',
+      href: getPermalink('software-development', 'category'),
+    },
   ]
 };
 
