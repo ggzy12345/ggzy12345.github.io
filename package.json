@@ -11,7 +11,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "sync": "astro build && rm -fr /Users/peterguo/Projects/github/gh-pages-branch/ggzy12345.github.io/* && cp -fr ./dist/* /Users/peterguo/Projects/github/gh-pages-branch/ggzy12345.github.io/ && touch /Users/peterguo/Projects/github/gh-pages-branch/ggzy12345.github.io/.nojekyll",
+    "sync": "astro build && rm -fr ~/Projects/github/gh-pages-branch/ggzy12345.github.io/* && cp -fr ./dist/* ~/Projects/github/gh-pages-branch/ggzy12345.github.io/ && touch ~/Projects/github/gh-pages-branch/ggzy12345.github.io/.nojekyll",
     "astro": "astro",
     "check": "npm run check:astro && npm run check:eslint && npm run check:prettier",
     "check:astro": "astro check",
