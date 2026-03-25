@@ -1,0 +1,189 @@
+================================================================================
+CLAWCAGE — END USER LICENSE AGREEMENT (EULA)
+Version 1.1 — Effective 25 March 2026
+Copyright (c) 2026 ggzy12345@gmail.com. All rights reserved.
+================================================================================
+
+IMPORTANT: By purchasing, downloading, or using ClawCage, you agree to be
+bound by the terms of this Agreement. If you do not agree, do not install or
+use the Software and contact the selling platform for a refund before downloading.
+
+--------------------------------------------------------------------------------
+1. DEFINITIONS
+--------------------------------------------------------------------------------
+
+"Software"               means the ClawCage CLI ('clc'), installer binaries,
+                         Helm charts, Ansible roles, configuration files, and
+                         documentation provided under this Agreement, excluding
+                         Open-Source Components identified in NOTICE.txt.
+
+"Licensor"               means ggzy12345@gmail.com, the author and owner of
+                         ClawCage.
+
+"Licensee" or "You"      means the individual or organisation that has purchased
+                         a valid licence to use the Software.
+
+"Open-Source Components" means the third-party software components listed in
+                         NOTICE.txt, which are governed by their own respective
+                         open-source licences.
+
+--------------------------------------------------------------------------------
+2. LICENCE GRANT
+--------------------------------------------------------------------------------
+
+Subject to the terms of this Agreement, you are granted a non-exclusive,
+non-transferable licence to:
+
+  - Install and use ClawCage on your own machines.
+  - Use the ClawCage CLI ('clc') for your own infrastructure deployments.
+  - Use this Software for personal or small business purposes, provided your
+    organisation has no more than 5 employees or contractors at the time of use.
+
+One licence covers one individual or one organisation (up to 5 people).
+If your organisation grows beyond 5 employees, you must purchase an additional
+licence per 5 employees.
+
+--------------------------------------------------------------------------------
+3. RESTRICTIONS
+--------------------------------------------------------------------------------
+
+You may NOT:
+
+  - Redistribute, resell, sublicence, or share the Software with others.
+  - Modify and redistribute the Software.
+  - Use this Software to provide a hosted or managed service to third parties
+    (i.e. you may not resell access to infrastructure deployed by ClawCage).
+  - Remove or alter any copyright notices.
+  - Use this Software in an organisation with more than 5 employees without
+    purchasing additional licences.
+
+Open-Source Components exception: The above restrictions do not apply to
+Open-Source Components governed by their own licences (see NOTICE.txt). You
+may use and redistribute those components according to their respective licence
+terms.
+
+--------------------------------------------------------------------------------
+4. THIRD-PARTY SOFTWARE
+--------------------------------------------------------------------------------
+
+ClawCage installs and interacts with third-party tools including Ansible,
+Multipass, MicroK8s, OpenClaw, socat, bifrost and zrok2. The Licensor makes no representations
+about the security, fitness, or reliability of these tools. You use them at
+your own risk. Any vulnerabilities, data loss, or damage caused by third-party
+components are outside the Licensor's control and responsibility.
+
+--------------------------------------------------------------------------------
+5. INTELLECTUAL PROPERTY
+--------------------------------------------------------------------------------
+
+The Software, including all scripts, binaries, Helm charts, Ansible roles,
+configuration files, and documentation, is and remains the exclusive
+intellectual property of the Licensor. This Agreement does not transfer any
+ownership rights. All rights not expressly granted are reserved by the Licensor.
+
+--------------------------------------------------------------------------------
+6. OPEN-SOURCE COMPONENTS
+--------------------------------------------------------------------------------
+
+The Software incorporates Open-Source Components including, but not limited to,
+MicroK8s, Helm, Ansible, and zrok. Those components remain subject to their
+respective open-source licences. This Agreement covers only the proprietary
+portions of the Software authored by the Licensor. A complete list of
+third-party components and their licences is available in NOTICE.txt.
+
+--------------------------------------------------------------------------------
+7. NO UPDATE OBLIGATION
+--------------------------------------------------------------------------------
+
+The Licensor makes no commitment to provide updates, upgrades, bug fixes,
+patches, new features, or continued development of the Software. Any updates
+released are provided at the Licensor's sole discretion and may be subject to
+additional terms or fees. Purchase of a licence grants rights only to the
+version of the Software received at the time of purchase. The Licensor reserves
+the right to discontinue the Software at any time without notice or liability.
+
+--------------------------------------------------------------------------------
+8. DISCLAIMER OF WARRANTIES
+--------------------------------------------------------------------------------
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THIS SOFTWARE IS PROVIDED
+"AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+AND NON-INFRINGEMENT. THE LICENSOR DOES NOT WARRANT THAT THE SOFTWARE WILL BE
+ERROR-FREE, SECURE, OR UNINTERRUPTED.
+
+--------------------------------------------------------------------------------
+9. LIMITATION OF LIABILITY
+--------------------------------------------------------------------------------
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING BUT NOT LIMITED TO:
+
+  - Loss of data or system damage.
+  - Business interruption or loss of profits.
+  - Security breaches or unauthorised access.
+  - Damages arising from third-party software vulnerabilities.
+
+THIS LIMITATION APPLIES REGARDLESS OF THE THEORY OF LIABILITY (CONTRACT, TORT,
+NEGLIGENCE, OR OTHERWISE), EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES. IN ANY CASE, THE LICENSOR'S TOTAL LIABILITY SHALL
+NOT EXCEED THE AMOUNT YOU PAID FOR THE SOFTWARE.
+
+--------------------------------------------------------------------------------
+10. GEOGRAPHIC RESTRICTIONS
+--------------------------------------------------------------------------------
+
+THIS SOFTWARE IS NOT AVAILABLE TO RESIDENTS OF THE EUROPEAN UNION (EU),
+EUROPEAN ECONOMIC AREA (EEA), OR THE UNITED KINGDOM. BY PURCHASING AND USING
+THIS SOFTWARE, YOU CONFIRM THAT YOU ARE NOT LOCATED IN, AND ARE NOT A RESIDENT
+OR CITIZEN OF, ANY EU/EEA MEMBER STATE OR THE UNITED KINGDOM.
+
+If you are an EU/EEA/UK resident who has purchased this Software in error,
+contact the selling platform for a refund.
+
+--------------------------------------------------------------------------------
+11. REFUND POLICY
+--------------------------------------------------------------------------------
+
+Except as required by applicable law, including the Australian Consumer Law,
+no refunds are provided after the Software has been downloaded.
+
+--------------------------------------------------------------------------------
+12. GOVERNING LAW AND JURISDICTION
+--------------------------------------------------------------------------------
+
+This Agreement shall be governed by and construed in accordance with the laws
+of the State of Victoria, Australia, without regard to its conflict of law
+provisions. Any dispute arising from this Agreement shall be subject to the
+exclusive jurisdiction of the courts of Melbourne, Victoria, Australia. By
+using this Software, you consent to this jurisdiction.
+
+--------------------------------------------------------------------------------
+13. ENTIRE AGREEMENT
+--------------------------------------------------------------------------------
+
+This EULA constitutes the entire agreement between you and the Licensor
+regarding the Software and supersedes all prior agreements and understandings,
+whether written or oral.
+
+================================================================================
+PRIVACY POLICY
+================================================================================
+
+ClawCage does not collect, transmit, or store any personal data.
+All configuration files are stored locally on your machine at ~/.clc/.
+No analytics, telemetry, or usage data is collected or transmitted to any
+server.
+
+================================================================================
+ACCEPTANCE
+================================================================================
+
+By purchasing and using ClawCage, you confirm that you have read, understood,
+and agree to all terms above. This Software is intended for personal use or use
+within a small organisation of up to 5 employees. The Licensor is not
+responsible for any damage to your systems resulting from use of this Software
+or any third-party tools it interacts with.
+
+================================================================================

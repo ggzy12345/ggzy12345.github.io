@@ -1,0 +1,24 @@
+THIRD-PARTY COMPONENTS
+
+This product includes or requires:
+
+1. Ansible (GPL-3.0)
+   - Playbooks: (source included)
+   - Installed via: apt-get / brew
+   - https://github.com/ansible/ansible
+
+2. Multipass (GPL-3.0)
+   - Required dependency (installed via brew/apt)
+   - https://github.com/canonical/multipass
+
+3. socat (GPL-2.0)
+   - Required dependency (installed via apt)
+   - http://www.dest-unreach.org/socat/
+
+4. MicroK8s (Apache-2.0)
+   - Required dependency (installed via snap/brew)
+   - https://github.com/canonical/microk8s
+
+5. OpenClaw Installer (Proprietary)
+   - © 2026 ggzy12345@gmail.com. All rights reserved.
+   - Contains proprietary Helm charts (encrypted)
